@@ -1,0 +1,17 @@
+.sectionProjetos {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 4rem;
+}
+.cardProjetos {
+    background-color: rgba(165, 42, 42, 0.307);
+    width: 30%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2rem;
+    border-radius: 30px;
+}

@@ -1,0 +1,24 @@
+.navBar {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+ul {
+    border: solid red;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    list-style: none;
+}
+
+.listaDesordenada {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    .linkRota {
+        color: aliceblue;
+    }
+}
