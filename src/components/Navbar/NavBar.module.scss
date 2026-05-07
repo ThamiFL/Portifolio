@@ -1,24 +1,22 @@
 .navBar {
-    background-color: aquamarine;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 10vh;
+  background-color: #e5decf;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 6vh;
+  border-bottom: solid 0.1rem #b87b5d;
 }
 
 ul {
-    border: solid red;
-    display: flex;
-    justify-content: space-evenly;
-    width: 100vw;
-    list-style: none;
-}
+  display: flex;
+  justify-content: space-evenly;
+  gap: 3rem;
+  list-style: none;
+  font-size: 1.3rem;
+  margin-right: 1rem;
 
-.listaDesordenada {
-    display: flex;
-    justify-content: space-evenly;
-    width: 50%;
-    .linkRota {
-        color: aliceblue;
-    }
+  li {
+    border: solid;
+    color: #4a4a44;
+  }
 }
