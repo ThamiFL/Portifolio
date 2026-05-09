@@ -1,0 +1,15 @@
+.footer {
+  background-color: #3d2010;
+  padding: 1.5rem 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  color: #b89a78;
+
+  div {
+    font-size: 0.72rem;
+    letter-spacing: 0.06em;
+  }
+}

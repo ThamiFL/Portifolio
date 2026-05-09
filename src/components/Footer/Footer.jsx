@@ -1,6 +1,10 @@
-export default function Footer(){
-    return(
-<h1>Footer</h1>
+import styles from "./Footer.module.scss";
 
-    )
-} 
+export default function Footer() {
+  return (
+    <footer className={styles.footer}>
+      <div>© 2026 Todos os direitos reservados</div>
+      <div>Feito com muito carinho · Rio de Janeiro, BR</div>
+    </footer>
+  );
+}

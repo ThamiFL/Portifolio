@@ -7,8 +7,9 @@ import styles from "./Navbar.module.scss";
 
 export default function Navbar() {
   return (
-    <BrowserRouter>
+    <BrowserRouter>  
       <nav className={styles.navBar}>
+      <h1>Fios <em>&</em> Códigos</h1>
         <ul>
           <li>
             <Link to="/">Inicio</Link>
@@ -17,7 +18,7 @@ export default function Navbar() {
             <Link to="/projetos">Projetos</Link>
           </li>
           <li>
-            <Link to="/contatos">Contatos</Link>
+            <Link className={styles.contatos} to="/contatos">Contatos</Link>
           </li>
         </ul>
       </nav>
