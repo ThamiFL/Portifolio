@@ -3,12 +3,13 @@ import styles from "./Inicio.module.scss";
 export default function Inicio() {
   return (
     <section className={styles.inicio}>
-      <div>Fios e códigos</div>
-      <div>Entre café, crochê e programação</div>
-      <p>
+      <div className={styles.fio}>✦ Fios e Códigos ✦</div>
+      <div className={styles.div}>
+        Entre café, <em>crochê</em> & <div>programação</div>
+      </div>
+      <p className={styles.p}>
         Desenvolvo aplicações full stack unindo design, programação e detalhes
-        feitos com o mesmo cuidado de um trabalho em crochê. Interfaces
-        modernas, funcionais e com personalidade.
+        feitos com o mesmo cuidado de um trabalho em crochê.
       </p>
     </section>
   );
